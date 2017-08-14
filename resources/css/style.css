@@ -23,11 +23,9 @@ margin: auto;
 /*+++++++++++ Main Header Section ++++++++++ */
 
 .main_header {
-	background-color: #a57122;
+	background-color: #173e43;
 	padding-top: 1.3em;
 	padding-bottom: 1.3em;
-
-
 }
 
 header {
@@ -37,7 +35,7 @@ header {
 	align-items: center;
 }
 
- .main_header h1 {
+.main_header h1 {
  	font-family: 'Stalinist One', cursive;
  	color: #000;
   	text-align: center;
@@ -61,7 +59,7 @@ header {
 header h2 {
 display: inline-block;	
 font-size: 1.2em;
-color:#d6e5b7;
+color:#5a5c51;
 }
 
 .featured {
@@ -83,9 +81,9 @@ font-size: 1.3em;
 		padding: .5em;
 		width:8em;
 		transition: width 0.4s ease-in-out;
-		background-color: #f2e4b0;
+		background-color: #a8b6bf;
 		font-size: 1em;
-		background-image: url('/resources/images/Search-icon-32px.png');
+		background-image: url(../images/Search-icon-32px.png);
     	background-position: 5px; 
     	background-repeat: no-repeat;
     	text-align: center;
@@ -128,20 +126,40 @@ display: flex;
 	.photo p{
 		font-family: 'Black Ops One', cursive;
 		text-align: center;
-		color: #d6e5b7;
+		color: #64706c;
 		font-size: .8em;
 			}
 
 	.photo img{
 	   	max-width: 9em;
   	    border-radius: 15px 15px;
-  	    box-shadow: 0px 0px 0px 5px #000, 0px 0px 0px 10px #3e2b14;;
+  	    box-shadow: 0px 0px 0px 5px #000, 0px 0px 0px 10px #312c32;
 	}
 
 /* the "caption" is needed for the dynamic search but should not be displayed outside of lightbox*/
 	.photo p:first-Child {
 	display: none;
 	}
+
+
+/* ---------Footer----------*/
+
+footer{
+	height: 3em;
+	background: #333 url(//stephy.mccdgm.net/images/patterns/gray_sand.png);
+	margin: auto;
+
+}
+
+
+footer p{
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  padding-top: 1em;
+  color: #5a5c51;
+  font-weight: bold;
+
+}
 
 
 	/* ++++++++++++Screen 768px-and-up Media Query++++++++++++++*/
@@ -161,10 +179,8 @@ display: flex;
 
 /* ---------Header Resizing----------*/
  .main_header h1 {
-
 	font-size: 3.5em;
-	
-}
+	}
 
 header h2 {
 
@@ -208,15 +224,19 @@ font-size: 1.3em;
 			}
 
 /* ---------Header Resizing----------*/
- .main_header h1 {
-
-	font-size: 3.5em;
-	
+ .main_header {
+		padding-top: 0.5em;
+	padding-bottom: 0.5em;
 }
+
+.main_header h1 {
+	font-size: 4em;
+	}
 
 header h2 {
 
 font-size: 2em;
+padding: 
 }
 
 .featured {
@@ -231,8 +251,5 @@ font-size: 1.3em;
 	padding:  2em 1em 1em 7em;
 	text-align: left;
 	}
-.search_box #myInput:focus {
-	
-		
-	}
+
 }

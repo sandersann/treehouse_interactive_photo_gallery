@@ -22,5 +22,5 @@ function myFunction() {
     }
 }
 
-// Calling the function for the Search Box
+// Calling the function for the Search Box using Event Listener with JS.
 input.addEventListener("keyup", myFunction());
