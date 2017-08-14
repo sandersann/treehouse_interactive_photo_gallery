@@ -1,4 +1,7 @@
-function myFunction() {
+
+
+
+document.onkeyup = function myFunction() {
 
     // Declare variables
     var input, filter, ul, li, a, i;
@@ -22,8 +25,15 @@ function myFunction() {
     }
 }
 
+
+   lightbox.option({
+      
+      'disableScrolling': true
+    })
+
+
 // Calling the function for the Search Box using Event Listener with JS.
-input.addEventListener("keyup", alert("We are getting there!"));
+
 
    lightbox.option({
       
