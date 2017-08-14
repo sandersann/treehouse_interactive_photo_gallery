@@ -26,11 +26,6 @@ document.onkeyup = function myFunction() {
 }
 
 
-   lightbox.option({
-      
-      'disableScrolling': true
-    })
-
 
 // Calling the function for the Search Box using Event Listener with JS.
 
