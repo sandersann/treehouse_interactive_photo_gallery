@@ -23,4 +23,9 @@ function myFunction() {
 }
 
 // Calling the function for the Search Box using Event Listener with JS.
-input.addEventListener("keyup", myFunction());
+input.addEventListener("keyup", alert("We are getting there!"));
+
+   lightbox.option({
+      
+      'disableScrolling': true
+    })
