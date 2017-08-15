@@ -211,3 +211,14 @@ body.lb-disable-scrolling {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
+
+/* ++++++++++++Screen 1024px-and-up Media Query++++++++++++++*/
+
+@media screen and (min-width:1024px) {
+
+.lightbox {
+font-size: 1.5em;
+font-weight: 900;
+
+}
+}

@@ -32,5 +32,6 @@ document.onkeyup = function myFunction() {
 
    lightbox.option({
       
-      'disableScrolling': true
+      'disableScrolling': true,
+      'wrapAround': true
     })
